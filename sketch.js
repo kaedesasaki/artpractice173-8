@@ -21,9 +21,9 @@ function setup(){
 function draw(){
   background(158, 231, 250);
   drawSprites();
-  image(cloud, 100, 100, 100, 100);
-  image(cloud2, 200, 200, 200, 100);
-  image(cloud3, 300, 200, 300, 100);
-  image(cloud4, 400, 400, 400, 100);
+  image(cloud, 100, 200, 200, 200);
+  image(cloud2, 500, 400, 400, 400);
+  image(cloud3, 400, 600, 300, 300);
+  image(cloud4, 700, 800, 500, 500);
 
 }
