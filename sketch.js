@@ -7,11 +7,10 @@ function preload(){
 	
 function setup(){
   createCanvas(1000, 1000);
-  var sprite = createSprite(30, 50);
+  var sprite = createSprite(100, 100);
   sprite.addAnimation("kiki", anim_kiki);
-  sprite = createSprite(70, 50); 
+  sprite = createSprite(200, 100); 
   sprite.addAnimation("lala", anim_lala); 
-  sprite.scale = 3.0;
 }
 
 function draw(){
