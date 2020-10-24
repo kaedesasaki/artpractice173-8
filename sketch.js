@@ -12,9 +12,9 @@ function preload(){
 	
 function setup(){
   createCanvas(1000, 1000);
-  var sprite = createSprite(30, 50); //スプライトの作成
+  var sprite = createSprite(300, 100); //スプライトの作成
   sprite.addAnimation("kiki", anim_kiki); //スプライトにアニメーションを加える
-  sprite = createSprite(70, 50); //スプライトの作成
+  sprite = createSprite(500, 100); //スプライトの作成
   sprite.addAnimation("lala", anim_lala); //スプライトにアニメーションを加える
 }
 
