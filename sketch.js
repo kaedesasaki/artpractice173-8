@@ -11,6 +11,7 @@ function setup(){
   sprite.addAnimation("kiki", anim_kiki);
   sprite = createSprite(70, 50); 
   sprite.addAnimation("lala", anim_lala); 
+  sprite.scale = 3.0;
 }
 
 function draw(){
