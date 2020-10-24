@@ -23,7 +23,7 @@ function draw(){
   drawSprites();
   image(cloud, 100, 150, 200, 200);
   image(cloud2, 500, 400, 200, 200);
-  image(cloud3, 300, 600, 200, 200);
+  image(cloud3, 250, 600, 200, 200);
   image(cloud4, 600, 700, 200, 200);
 
 }
